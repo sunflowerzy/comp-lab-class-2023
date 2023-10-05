@@ -1,0 +1,31 @@
+# This file was created Mon Oct  2 16:07:31 2023
+# Created by:
+#                      :-) GROMACS - gmx energy, 2020.4 (-:
+# 
+# Executable:   /share/apps/gromacs/2020.4/openmpi/intel/bin/gmx_mpi
+# Data prefix:  /share/apps/gromacs/2020.4/openmpi/intel
+# Working dir:  /scratch/work/courses/CHEM-GA-2671-2023fa/students/zg2344/comp-lab-class-2023/Week3
+# Command line:
+#   gmx_mpi energy -f nvt.edr -o temperature.xvg
+# gmx energy is part of G R O M A C S:
+#
+# GROup of MAchos and Cynical Suckers
+#
+@    title "GROMACS Energies"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "(K)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Temperature"
+    0.000000  300.178223
+    1.000000  301.012329
+    2.000000  301.620667
+    3.000000  300.153076
+    4.000000  302.020630
+    5.000000  297.148529
+    6.000000  298.030731

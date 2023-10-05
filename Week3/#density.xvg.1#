@@ -1,0 +1,29 @@
+# This file was created Mon Oct  2 16:29:57 2023
+# Created by:
+#                      :-) GROMACS - gmx energy, 2020.4 (-:
+# 
+# Executable:   /share/apps/gromacs/2020.4/openmpi/intel/bin/gmx_mpi
+# Data prefix:  /share/apps/gromacs/2020.4/openmpi/intel
+# Working dir:  /scratch/work/courses/CHEM-GA-2671-2023fa/students/zg2344/comp-lab-class-2023/Week3
+# Command line:
+#   gmx_mpi energy -f npt.edr -o density.xvg
+# gmx energy is part of G R O M A C S:
+#
+# Gnomes, ROck Monsters And Chili Sauce
+#
+@    title "GROMACS Energies"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "(kg/m^3)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Density"
+    0.000000  994.001465
+    1.000000  1021.021667
+    2.000000  1011.207581
+    3.000000  1015.190308
+    4.000000  1018.162964
