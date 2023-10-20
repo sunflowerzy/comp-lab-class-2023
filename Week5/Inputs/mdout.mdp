@@ -2,7 +2,7 @@
 ;	File 'mdout.mdp' was generated
 ;	By user: zg2344 (3874439)
 ;	On host: log-1
-;	At date: Thu Oct 12 14:38:16 2023
+;	At date: Thu Oct 19 15:19:40 2023
 ;
 ;	Created by:
 ;	                     :-) GROMACS - gmx grompp, 2018.3 (-:
@@ -11,7 +11,7 @@
 ;	Data prefix:  /share/apps/gromacs/2018.3/openmpi/intel
 ;	Working dir:  /scratch/work/courses/CHEM-GA-2671-2023fa/students/zg2344/comp-lab-class-2023/Week5/Inputs
 ;	Command line:
-;	  gmx_mpi grompp -f adp_T300.mdp -c adp.gro -p adp.top -o Simulation.tpr
+;	  gmx_mpi grompp -f adp_T440.mdp -c adp.gro -p adp.top -o md_440K.tpr
 
 ; VARIOUS PREPROCESSING OPTIONS
 ; Preprocessor information: use cpp syntax.
@@ -163,7 +163,7 @@ print-nose-hoover-chain-variables = no
 tc_grps                  = system
 ; Time constant (ps) and reference temperature (K)
 tau_t                    = 0.1
-ref_t                    = 300.000
+ref_t                    = 440.000
 ; pressure coupling     
 Pcoupl                   = no
 pcoupltype               = Isotropic
