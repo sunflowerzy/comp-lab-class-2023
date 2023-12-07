@@ -25,7 +25,7 @@ In this lab, you will use the code cp2k to run AIMD simulations of water, and a 
 
 1. Copy all of your files from Runs/Water to Runs/Proton
 2. Rename the input xyz file to `proton.xyz` and change water to proton in the `.inp` file everywhere
-3. Add an extra hydrogen to the `proton.xyz` file in a file editor:
+3. ...Add an extra hydrogen to the `proton.xyz` file in a file editor:
 	- Visualize the xyz file in vmd, and find an oxygen that is kind of near the middle of the box. Which atom index is this? In the xyz file, you should see that this is kind of close to position 0,0,0
 	- Find this oxygen in the xyz file, duplicate it's line, change 'O' to 'H', and shift x y or z by 1 angstrom (at least, this is what I did)
 	- Change the number of atoms at the top to be bigger by 1

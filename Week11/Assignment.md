@@ -26,4 +26,3 @@
 	- Add this energy as a column in your dataframe (look up how to add a column)
         - Have a cell at the end that shows your dataframe with the molecules and energies
 	- Add this notebook to your git repo
-4. Push everything to github
