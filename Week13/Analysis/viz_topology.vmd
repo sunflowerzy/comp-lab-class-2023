@@ -1,0 +1,63 @@
+Singularity> module load vmd/1.9.3 
+Singularity> vmd
+/share/apps/vmd/1.9.3/lib/vmd/vmd_LINUXAMD64: /share/apps/local/lib/libGL.so.1: no version information available (required by /share/apps/vmd/1.9.3/lib/vmd/vmd_LINUXAMD64)
+Info) VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+Info) http://www.ks.uiuc.edu/Research/vmd/                         
+Info) Email questions and bug reports to vmd@ks.uiuc.edu           
+Info) Please include this reference in published work using VMD:   
+Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
+Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
+Info) -------------------------------------------------------------
+Info) Multithreading available, 48 CPUs detected.
+Info)   CPU features: SSE2 AVX AVX2 FMA KNL:AVX-512F+CD+ER+PF 
+Info) Free system memory: 149GB (79%)
+Info) No CUDA accelerator devices available.
+Warning) Detected X11 'Composite' extension: if incorrect display occurs
+Warning) try disabling this X server option.  Most OpenGL drivers
+Warning) disable stereoscopic display when 'Composite' is enabled.
+Info) OpenGL renderer: Mesa X11
+Info)   Features: STENCIL MDE CVA MTX NPOT PP PS GLSL(OVF) 
+Info)   Full GLSL rendering mode is available.
+Info)   Textures: 2-D (16384x16384), 3-D (512x512x512), Multitexture (8)
+Info) Dynamically loaded 3 plugins in directory:
+Info) /share/apps/vmd/1.9.3/lib/vmd/plugins/LINUXAMD64/molfile
+vmd > Info) Using plugin parm7 for structure file /home/zg2344/comp-lab-class/comp-lab-class-2023/Week13/Inputs/complex.prmtop
+Info) Analyzing structure ...
+Info)    Atoms: 50185
+Info)    Bonds: 50211
+Info)    Angles: 0  Dihedrals: 0  Impropers: 0  Cross-terms: 0
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Residues: 15184
+Info)    Waters: 14821
+Info)    Segments: 1
+Info)    Fragments: 14839   Protein: 3   Nucleic: 0
+Info) Using plugin crd for coordinates from file /home/zg2344/comp-lab-class/comp-lab-class-2023/Week13/Inputs/complex.inpcrd
+Info) Finished with coordinate file /home/zg2344/comp-lab-class/comp-lab-class-2023/Week13/Inputs/complex.inpcrd.
+X_ChangeProperty: BadValue (integer parameter out of range for operation) 0x40
+Info) In any publication of scientific results based in part or
+Info) completely on the use of the program STRIDE, please reference:
+Info)  Frishman,D & Argos,P. (1995) Knowledge-based secondary structure
+Info)  assignment. Proteins: structure, function and genetics, 23, 566-579.
+File /state/partition1/job-41033986/fileP13hMh has no coordinates
+Error reading PDB file /state/partition1/job-41033986/fileP13hMh
+ERROR) Unable to find Stride output file: /state/partition1/job-41033986/fileJj0Zpj
+ERROR) Stride::read_stride_record: unable to read output file from Stride
+ERROR) Call to Stride program failed.
+X_ChangeProperty: BadValue (integer parameter out of range for operation) 0x40
+X_ChangeProperty: BadValue (integer parameter out of range for operation) 0x40
+X_ChangeProperty: BadValue (integer parameter out of range for operation) 0x40
+X_ChangeProperty: BadValue (integer parameter out of range for operation) 0x40
+X_ChangeProperty: BadValue (integer parameter out of range for operation) 0x40
+X_ChangeProperty: BadValue (integer parameter out of range for operation) 0x40
+X_ChangeProperty: BadValue (integer parameter out of range for operation) 0x40
+X_ChangeProperty: BadValue (integer parameter out of range for operation) 0x40
+X_ChangeProperty: BadValue (integer parameter out of range for operation) 0x40
+X_ChangeProperty: BadValue (integer parameter out of range for operation) 0x40
+Info) Rendering current scene to '/home/zg2344/comp-lab-class/comp-lab-class-2023/Week13/Figures/complex.bmp' ...
+Info) Executing post-render cmd '"/share/apps/vmd/1.9.3/lib/vmd/tachyon_LINUXAMD64" -aasamples 12 /home/zg2344/comp-lab-class/comp-lab-class-2023/Week13/Figures/complex.bmp -format BMP -res 1024 1024  -o /home/zg2344/comp-lab-class/comp-lab-class-2023/Week13/Figures/complex.bmp.bmp' ...
+Tachyon Parallel/Multiprocessor Ray Tracer   Version 0.99.1   
+Copyright 1994-2014,    John E. Stone <john.stone@gmail.com> 
+------------------------------------------------------------ 
+Info) Rendering complete.
+Error reading PDB file /state/partition1/job-41033986/fileP13hMh
+
